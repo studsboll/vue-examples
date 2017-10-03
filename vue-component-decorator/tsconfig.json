@@ -1,0 +1,28 @@
+﻿{
+  "compileOnSave": false,
+  "compilerOptions": {
+  //  "module": "commonjs",
+    "target": "es5",
+    "noImplicitAny": false,
+    "removeComments": true,
+    "sourceMap": true,
+    "allowJs": false,
+    "allowUnreachableCode": true,
+    "typeRoots": [ "node_modules/@types/" ],
+  
+    "allowSyntheticDefaultImports": true,
+    "lib": [
+      "dom",
+      "es5",
+      "es2015.promise"
+    ],
+    "module": "es2015",
+    "moduleResolution": "node",
+    "experimentalDecorators": true
+  },
+  "awesomeTypescriptLoaderOptions": {
+    "useBabel": true,
+    "useCache": true 
+  },
+  "exclude": [ "node_modules" ]
+}
